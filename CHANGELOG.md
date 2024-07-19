@@ -2,6 +2,22 @@
 
 All notable changes to `homebridge` will be documented in this file. This project tries to adhere to [Semantic Versioning](http://semver.org/).
 
+## v1.8.4 (2024-07-19)
+
+### Fixed
+
+- Fix default FirmwareRevision (#3644) (@hjdhjd)
+
+### Changed
+
+- Detect config interface on registerPlatform (#3609) (@duddu)
+- Updated dependencies, fix `typedoc` generation
+- Added log messaging about upcoming Homebridge v2.0.0 update
+  - NOTICE TO USERS AND PLUGIN DEVELOPERS
+    - Homebridge 2.0 is on the way and brings some breaking changes to existing plugins.
+    - Please visit the following link to learn more about the changes and how to prepare:
+      - [Updating-To-Homebridge-v2](https://github.com/homebridge/homebridge/wiki/Updating-To-Homebridge-v2)
+
 ## v1.8.3 (2024-06-19)
 
 ### Changed
